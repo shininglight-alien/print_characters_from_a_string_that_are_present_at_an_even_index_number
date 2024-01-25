@@ -2,10 +2,10 @@
 
 def display_even_index_chars():
     user_string = input("String Entry:")
-    print("Characters at Even Index: ", end="")
+    print("Characters at Even Index: ")
     for i in range(len(user_string)):
         if i % 2 == 0:
-            print(user_string[i], end="")
+            print(user_string[i])
         print()
 
 display_even_index_chars()
